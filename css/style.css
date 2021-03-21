@@ -1,0 +1,87 @@
+html{
+    font-size: 20px;
+}
+body{
+    color: #fcfcfc;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.blkbd{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position:absolute; right: 0em;
+    text-align: right;
+    background-color: rgb(106, 134, 177);
+}
+div header h1{
+    color: #fcfcfc;
+    background-color: #000000;
+    font-family: Broadway;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+div.wrapper{/*centrar y hacer que cubra un 80% del navegador*/
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+section article{/*hacer que los parrafos tengan un resalte de un color distinto al del fondo*/
+    background-color: rgba(33, 62, 74, 1);
+    margin-top: 20px;/*separación entre parrafos*/
+    padding: 12px;/*tamaño de los margenes de los lados*/
+}
+section article p{/*cambiar el tamaño del texto y justificar de una sección especifica*/
+    font-size: 0.8rem;
+    text-align: justify;
+}
+nav{/*hacer que los parrafos tengan un resalte de un color distinto al del fondo*/
+    background-color: rgba(33, 62, 74, 1);
+    margin-top: 20px;/*separación entre parrafos*/
+    padding: 12px;/*tamaño de los margenes de los lados*/
+}
+nav span a{
+    background-color: rgb(12, 128, 136);
+    border-bottom-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    padding: 10px;
+    text-decoration: none;
+    font-family:Arial black;
+
+}
+nav span a:hover{/*hacer que el color de un enlace cambie al pasar sobre el un cursor*/
+    background-color: #B2DFDB;
+}
+
+/*hacer que solamente un enlace en especifico cambie de color al pasar el cursor*/
+nav span a[href="http://www.sensacine.com/peliculas/pelicula-175305/reparto/"]:hover
+{
+    background-color: #9E9E9E;
+}
+
+/*hacer que solamente la primera letra de un párrafo cambie de color*/
+section article h3:first-letter{
+    color: gold;
+    font-size: 1.5rem;
+}
+
+/*hacer que solamente las primeras lineas de un párrafo estén subrayadas*/
+section article:first-child p:first-line
+{
+    text-decoration: underline;
+}

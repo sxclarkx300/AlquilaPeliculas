@@ -1,0 +1,22 @@
+a{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+font-size: 14px;
+vertical-align: top;
+display: inline-block;
+text-align: center;
+
+div.lst-cats>li{width: 50%;/* text-align: left; */}
+.lst-cats>li>a{display: block;line-height: 30px;height: 30px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.blkhd[class*="iconb"]{position: relative;}
+.blkhd[class*="iconb"]:before{position: absolute;height: 50px;line-height: 50px;width: 50px;text-align: center;font-size: 20px;top: 0;right: 0;}
+.blkhd.iconb-gogl+.blkbd,.blkhd.iconb-face+.blkbd{padding: 5px;}
+.blkhd.iconb-gogl{background-color: #DD4B38;color: #fff;}
+.blkhd.iconb-face{background-color: #4864B4;color: #fff;}	
+.frmsrchadv button{width: 100%;border-radius:5px;}
